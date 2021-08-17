@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- <div>
+        <div>
+            <h2>
+                Resultado: <span class="resultado"></span>
+            </h2>
+            <div>
+                <div>
+                    <div>
+                        <label for="">Valor 1</label>
+                        <input id="valor1" type="text">
+                    </div>
+                    <div>
+                        <label for="">Valor 2</label>
+                        <input id="valor2" type="text">
+                    </div>
+                    <div style="display: flex">
+                        <button id="btn-sumar" type="button">
+                            Sumar
+                        </button>
+                        <button id="btn-restar" type="button">
+                            Restar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- LEO -->
+    <div class="container">
+        <div class="m-auto w-25 mt-5">
+            <h2>
+                Resultado: <span class="resultado fst-italic fw-bolder"></span>
+            </h2>
+
+            <form id="form">
+                <div class="mb-3 mt-3">
+                    <label for="valor1" class="form-label">Valor 1</label>
+                    <input type="text" class="form-control " id="valor1">
+                    <div id="errorValor1" class="form-text text-danger fst-italic"></div>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="valor2" class="form-label">Valor 2</label>
+                    <input type="text" class="form-control " id="valor2">
+                    <div id="errorValor2" class="form-text text-danger fst-italic"></div>
+                </div>
+
+
+
+                <button type="submit" class="btn btn-outline-primary" id="btn-sumar">Sumar</button>
+                <button type="submit" class="btn btn-outline-primary" id="btn-restar">Restar</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap Bundle with Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

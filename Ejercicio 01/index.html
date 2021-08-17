@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="m-auto w-50 mt-5">
+            <h2>
+                Escríbenos !!!
+            </h2>
+            <div class="resultado fs-4 text-success fst-italic fw-bolder  text-center"></div>
+
+            <form id="form">
+                <div class="mb-3 mt-3">
+                    <label for="nombre" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control " id="nombre">
+                    <div id="nombreError" class="form-text text-danger fst-italic"></div>
+
+                </div>
+
+                <div class="mb-3">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="asunto">
+                    <div id="asuntoError" class="form-text text-danger fst-italic"></div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                    <div id="mensajeError" class="form-text text-danger fst-italic"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap Bundle with Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
